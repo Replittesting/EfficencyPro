@@ -1,3 +1,4 @@
+import HeroVideo from "@/assets/HeroVideo.mp4";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -32,7 +33,7 @@ export function HeroSection() {
           playsInline
           className="w-full h-[90vh] object-cover"
         >
-          <source src="/src/assets/HeroVideo.mp4" type="video/mp4" />
+          <source src={HeroVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
