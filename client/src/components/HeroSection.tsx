@@ -24,12 +24,17 @@ export function HeroSection() {
 
   return (
     <section id="hero" className="relative pt-20">
-      <div className="img-gradient w-full">
-        <img 
-          src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080" 
-          alt="Modern office workspace" 
+      <div className="img-gradient w-full relative">
+        <video 
+          autoPlay
+          muted
+          loop
+          playsInline
           className="w-full h-[90vh] object-cover"
-        />
+        >
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-man-working-on-his-laptop-308-large.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
 
       <div className="absolute inset-0 flex items-center z-10">
