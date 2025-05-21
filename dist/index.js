@@ -136,6 +136,10 @@ var vite_config_default = defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "docs"),
     emptyOutDir: true
+  },
+  // 🪄 this tells Vite to use index.html for all unknown paths
+  server: {
+    historyApiFallback: true
   }
 });
 
