@@ -31,8 +31,9 @@ export function HeroSection() {
           loop
           playsInline
           className="w-full h-[90vh] object-cover"
+          poster="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080"
         >
-          <source src="https://assets.mixkit.co/videos/preview/mixkit-man-working-on-his-laptop-308-large.mp4" type="video/mp4" />
+          <source src="https://cdn.coverr.co/videos/coverr-digital-technology-4368/1080p.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
